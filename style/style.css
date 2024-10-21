@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-size: 14px;
+    height: 100vh;
+    font-family: Inter;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+}
+
+
+.container .profile img{
+    border-radius: 50%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+
+.container .profile p:nth-child(2) {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.container .profile p:nth-child(3) {
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 20px;
+}
+
+
+.container .profile {
+    margin-bottom: 20px;
+}
+
+.container .links > a > div {
+    background-color:  hsl(0, 0%, 20%);
+    border-radius: 5px;
+    padding: 15px 0px;
+    margin-bottom: 12px;
+    font-size: 10px;
+    transition: background-color 0.5s;
+}
+
+
+.container .links > a > div:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+
+.container .links > a {
+    text-decoration: none;
+    color: #fff;
+}
